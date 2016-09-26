@@ -1,0 +1,16 @@
+# Alle hier gesetzten Werte können über $addon->getProperty($key) abgefragt werden
+
+package: rex5_multiupload
+version: '1.0.1'
+author: Christian Kolloch (darwin), Hirbod Mirjavadi
+supportpage: www.redaxo.org/de/forum/
+
+page:
+    title: 'Rex5 Multiupload'
+    perm: rex5_multiupload[]
+    subpages:
+        quickupload: { title: translate:quickupload }
+        upload: { title: 'upload', hidden: true, hasLayout: false }
+
+requires:
+    redaxo: '>=5.0.0'
