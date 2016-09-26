@@ -1,12 +1,8 @@
 /**
- * REX Multiupload - Multi Upload Utlility
- *
- * @link https://github.com/nightstomp/rex_multiupload
- *
- * @author info[at]nightstomp.com Hirbod Mirjavadi
- *
- * @package redaxo4.3.x, redaxo4.4.x, redaxo4.5.x, redaxo4.6.x
- * @version 3.1.0
+ * rex5_multiupload Addon.
+ * @author Friends Of REDAXO
+ * @package redaxo
+ * @var rex_addon $this
  */
 
 /**

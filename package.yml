@@ -1,8 +1,8 @@
 # Alle hier gesetzten Werte können über $addon->getProperty($key) abgefragt werden
 
 package: rex5_multiupload
-version: '1.0.1'
-author: Christian Kolloch (darwin), Hirbod Mirjavadi
+version: '1.0.2'
+author: Friends Of REDAXO
 supportpage: www.redaxo.org/de/forum/
 
 page:

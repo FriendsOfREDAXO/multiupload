@@ -1,4 +1,4 @@
-idowapro
+REX5 Multipload Addon
 ================
 
 ReadMe
@@ -8,20 +8,17 @@ Funktionsliste
 -------
 
 * Funktionsbeschreibngen
-* foo
-* bla
 
 
 Installation
 -------
 
 * Installationsbeschreibung
-* foo
-* bla
+Addon installieren und aktivieren
 
 Last Changes
 -------
 
-### Version 0.0.1 // ##. ## ####
+### Version 1.0.2 // ##. ## ####
 
 - Changes

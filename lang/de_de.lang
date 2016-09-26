@@ -1,12 +1,7 @@
 rex5_multiupload = Rex5 Multiupload
 
-
 # package
 quickupload = Quick Upload
 settings = Einstellungen
 developer = Für Entwickler
 informations = Informationen
-
-
-# content page
-rex5_multiupload_foo = foo

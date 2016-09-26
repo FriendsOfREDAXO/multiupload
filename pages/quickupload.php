@@ -2,11 +2,8 @@
 
 /**
  * rex5_multiupload Addon.
- *
- * @author kolloch.c@idowapro.de
- *
- * @package redaxo\idowapro
- *
+ * @author Friends Of REDAXO
+ * @package redaxo
  * @var rex_addon $this
  */
 
