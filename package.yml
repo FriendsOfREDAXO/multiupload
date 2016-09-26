@@ -3,7 +3,7 @@
 package: rex5_multiupload
 version: '1.0.2'
 author: Friends Of REDAXO
-supportpage: www.redaxo.org/de/forum/
+supportpage: https://github.com/FriendsOfREDAXO/
 
 page:
     title: 'Rex5 Multiupload'
