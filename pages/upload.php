@@ -1,11 +1,4 @@
 <?php
-/**
- * rex5_multiupload Addon.
- * @author Friends Of REDAXO
- * @package redaxo
- * @var rex_addon $this
- */
-	
 $addon = rex_addon::get('rex5_multiupload');
 $addon->getProperty("php_debug");
 

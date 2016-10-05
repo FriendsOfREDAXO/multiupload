@@ -1,11 +1,4 @@
 /**
- * rex5_multiupload Addon.
- * @author Friends Of REDAXO
- * @package redaxo
- * @var rex_addon $this
- */
-
-/**
 * Helper functions
 */
 jQuery(document).ready(function(){

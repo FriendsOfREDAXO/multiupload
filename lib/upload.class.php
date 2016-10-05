@@ -1,11 +1,4 @@
 <?php
-
-/**
- * rex5_multiupload Addon.
- * @author Friends Of REDAXO
- * @package redaxo
- * @var rex_addon $this
- */
  
 if(!class_exists('rex_mediapool_multiupload')) {
     
