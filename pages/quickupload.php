@@ -1,6 +1,6 @@
 <?php
 
-echo rex_view::title('Rex5 Multiupload');
+echo rex_view::title('multiupload');
 
 $upload = new rex_mediapool_multiupload;
 $upload->setCallback("complete", "multiuploadEditFile");

@@ -1,6 +1,6 @@
 <?php
 
-$addon = rex_addon::get('rex5_multiupload');
+$addon = rex_addon::get('multiupload');
 
 // --- DYN
 $properties = array (
@@ -31,10 +31,10 @@ if (rex::isBackend()) {
     
     $header =
     PHP_EOL.'  '.
-    PHP_EOL.'  <!-- rex5_multiupload -->'.
+    PHP_EOL.'  <!-- multiupload -->'.
     PHP_EOL.'  <script type="text/javascript">var lastMediaPoolOpener = "'.$_REX_HACK_OPENER.'";</script>'.
     PHP_EOL.'  <!-- ###MULTIUPLOAD_EP_REPLACE### -->'.
-    PHP_EOL.'  <!-- /rex5_multiupload -->'.PHP_EOL;
+    PHP_EOL.'  <!-- /multiupload -->'.PHP_EOL;
     
     
     rex_extension::register('OUTPUT_FILTER', function(rex_extension_point $ep) use ($header){

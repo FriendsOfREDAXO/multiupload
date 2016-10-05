@@ -1,13 +1,13 @@
 # Alle hier gesetzten Werte können über $addon->getProperty($key) abgefragt werden
 
-package: rex5_multiupload
+package: multiupload
 version: '2.0.0-dev'
 author: Friends Of REDAXO
-supportpage: https://github.com/FriendsOfREDAXO/
+supportpage: https://github.com/FriendsOfREDAXO/multiupload
 
 page:
-    title: 'Rex5 Multiupload'
-    perm: rex5_multiupload[]
+    title: 'Multiupload'
+    perm: multiupload[]
     subpages:
         quickupload: { title: translate:quickupload }
         upload: { title: 'upload', hidden: true, hasLayout: false }
