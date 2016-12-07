@@ -1,7 +1,7 @@
 <?php
 
 /**
- * rex5_multiupload Addon.
+ * multiupload Addon.
  * @author Friends Of REDAXO
  * @package redaxo
  * @var rex_addon $this
@@ -29,8 +29,8 @@ if(!class_exists('rex_mediapool_multiupload')) {
         public $time = null;
         
         function __construct(){
-            $this->addon_name = "rex5_multiupload";
-            $this->addon = rex_addon::get('rex5_multiupload');
+            $this->addon_name = "multiupload";
+            $this->addon = rex_addon::get('multiupload');
             $this->sync_cat = $this->addon->getProperty("sync_cats");
             $this->clear_uploadlist_automatically = $this->addon->getProperty("clear_uploadlist_automatically");
             $this->clear_file_after_finish = $this->addon->getProperty("clear_file_after_finish");

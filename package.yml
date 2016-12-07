@@ -1,16 +1,25 @@
 # Alle hier gesetzten Werte können über $addon->getProperty($key) abgefragt werden
 
-package: rex5_multiupload
-version: '1.1.0-dev'
+package: multiupload
+version: '1.1.1'
 author: Friends Of REDAXO
 supportpage: https://github.com/FriendsOfREDAXO/
 
 page:
-    title: 'Rex5 Multiupload'
-    perm: rex5_multiupload[]
+    title: 'Multiupload'
+    perm: multiupload[]
     subpages:
-        quickupload: { title: translate:quickupload }
+        quickupload: { title: translate:quickupload}
         upload: { title: 'upload', hidden: true, hasLayout: false }
 
+pages:
+    mediapool/multiupload:
+        title: 'Multiupload'
+        popup: true
+        subpages:
+            test: { title: 'TEST' }
+            quickupload: { title: translate:quickupload, hidden: true}
+            upload: { title: 'upload', hidden: true, hasLayout: false }
+
 requires:
-    redaxo: '>=5.0.0'
+    redaxo: ^5.0

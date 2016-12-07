@@ -1,7 +1,7 @@
 <?php
 
 /**
- * rex5_multiupload Addon.
+ * multiupload Addon.
  * @author Friends Of REDAXO
  * @package redaxo
  * @var rex_addon $this
@@ -169,7 +169,7 @@ class qqFileUploader {
 }
 
 // security proof // die() if not logged in
-if(rex::getUser()->hasPerm('rex5_multiupload[]') OR rex::getUser()->isAdmin())
+if(rex::getUser()->hasPerm('multiupload[]') OR rex::getUser()->isAdmin())
 {
   // redaxo array without dots, strip them out
   $blockedExt = rex_mediapool_getMediaTypeBlacklist();
