@@ -1,5 +1,4 @@
 <?php
-
 /**
  * multiupload Addon.
  * @author Friends Of REDAXO
@@ -7,8 +6,7 @@
  * @var rex_addon $this
  */
 
-
-echo rex_view::title('Multiupload');
+echo rex_view::title('multiupload');
 
 $upload = new rex_mediapool_multiupload;
 $upload->setCallback("complete", "multiuploadEditFile");

@@ -1,5 +1,4 @@
 <?php
-
 /**
  * multiupload Addon.
  * @author Friends Of REDAXO

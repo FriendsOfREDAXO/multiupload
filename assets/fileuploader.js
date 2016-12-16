@@ -4,8 +4,9 @@
  * @package redaxo
  * @var rex_addon $this
  */
-
 /**
+=======
+
 * Helper functions
 */
 jQuery(document).ready(function(){
