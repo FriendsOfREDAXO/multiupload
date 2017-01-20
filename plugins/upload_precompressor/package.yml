@@ -1,0 +1,20 @@
+package: multiupload/upload_precompressor
+version: '1.0'
+author: Christian Kolloch
+supportpage: http://www.idowapro.de
+title: 'PreCompressor'
+description: 'translate:upload_precompressor_plugin'
+
+# DYN Werte
+max_pixel: 1200
+jpg_quality: 100
+
+page:
+    title: 'translate:upload_precompressor_title'
+    perm: admin
+    subpages:
+      settings: { title: 'Settings', hidden: true}
+
+
+requires:
+    redaxo: ^5.0

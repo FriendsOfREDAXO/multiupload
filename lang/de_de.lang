@@ -5,10 +5,3 @@ quickupload = Quick Upload
 settings = Einstellungen
 developer = Für Entwickler
 informations = Informationen
-
-multiupload_uploadform_js_info = JavaScript muss aktiviert sein.
-multiupload_uploadform_list_label = Dateien editieren
-multiupload_uploadform_remove_label = weitere Aktionen:
-multiupload_uploadform_remove_button = Abgeschlossene / fehlerhafte aus der Liste entfernen
-multiupload_uploadform_footnote = Mehrfachauswahl mit STRG(WIN) oder CMD(MAC).<br />Die Dateien werden automatisch in die ausgewählte Kategorie sychronisiert.<br />Ein Wechsel der Medienkategorie greift immer vor Auswahl einer Datei. Findet ein Upload bereits statt, kann für diese Datei die Kategorie nicht mehr verändert werden.
-

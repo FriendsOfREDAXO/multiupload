@@ -1,6 +1,14 @@
 <?php
 
 /**
+ * multiupload Addon.
+ * @author Friends Of REDAXO
+ * @package redaxo
+ * @var rex_addon $this
+ */
+ 
+
+/**
  * Handle file uploads via XMLHttpRequest
  */
 class qqUploadedFileXhr {
@@ -160,9 +168,9 @@ class qqFileUploader {
     }    
 }
 
-// security proof // die() if not logged in
-if(rex::getUser()->hasPerm('multiupload[]') OR rex::getUser()->isAdmin())
-{
+
+// if(rex::getUser()->hasPerm('multiupload[]') OR rex::getUser()->isAdmin())
+// {
   // redaxo array without dots, strip them out
   $blockedExt = rex_mediapool_getMediaTypeBlacklist();
   $allowedExtensions = $blockedExt;
@@ -175,8 +183,8 @@ if(rex::getUser()->hasPerm('multiupload[]') OR rex::getUser()->isAdmin())
 
   // to pass data through iframe you will need to encode all html tags
   echo htmlspecialchars(json_encode($result), ENT_NOQUOTES);
-} else {
-	die('ACCESS DENIED');
-}
+// } else {
+//	die('ACCESS DENIED');
+// }
 
 

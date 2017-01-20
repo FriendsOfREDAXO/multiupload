@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * multiupload Addon.
+ * @author Friends Of REDAXO
+ * @package redaxo
+ * @var rex_addon $this
+ */
+
+
 $addon = rex_addon::get('multiupload');
 
 // --- DYN
@@ -22,7 +30,7 @@ foreach($properties as $key => $val) {
 
 
 // --- HEADER
-if (rex::isBackend()) {
+if (rex::isBackend() && rex::getUser()) {
     rex_view::addCssFile($addon->getAssetsUrl('fileuploader.css'));
     rex_view::addJSFile($addon->getAssetsUrl('fileuploader.js'));
     
@@ -42,5 +50,22 @@ if (rex::isBackend()) {
         $ersetzen = $header ."\n</head>";
         $ep->setSubject(str_replace($suchmuster, $ersetzen, $ep->getSubject()));
     });
+
+    // Medienpool upload + sync Page deaktivieren
+    rex_extension::register('PAGES_PREPARED', function () {
+        $page = rex_be_controller::getPageObject('mediapool/upload');
+        if ($page) {
+            $page->setHidden(true);
+            $page->setHasLayout(true);
+            $page->setSubPath($this->getPath("pages/mediapool.multiupload.quickupload.php"));
+        }
+
+        $page = rex_be_controller::getPageObject('mediapool/sync');
+        if ($page) {
+            $page->setHidden(true);
+        }
+    });
 }
 // --- /HEADER
+
+

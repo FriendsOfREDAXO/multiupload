@@ -1,10 +1,9 @@
 <?php
 
 /**
- * multiupload Addon.
+ * multiupload/upload_precompressor Plugin.
  * @author Friends Of REDAXO
  * @package redaxo
  * @var rex_addon $this
  */
 
-require rex_be_controller::getCurrentPageObject()->getSubPath();

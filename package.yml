@@ -1,16 +1,21 @@
-# Alle hier gesetzten Werte können über $addon->getProperty($key) abgefragt werden
-
 package: multiupload
-version: '2.0.0-dev'
+version: '2.0.1-dev'
 author: Friends Of REDAXO
-supportpage: https://github.com/FriendsOfREDAXO/multiupload
+supportpage: https://github.com/FriendsOfREDAXO/
 
 page:
     title: 'Multiupload'
     perm: multiupload[]
     subpages:
-        quickupload: { title: translate:quickupload }
+        quickupload: { title: translate:quickupload}
         upload: { title: 'upload', hidden: true, hasLayout: false }
 
+pages:
+    mediapool/multiupload:
+        title: 'Multiupload'
+        perm: multiupload[]
+        subpages:
+          quickupload: { title: translate:quickupload, hidden: true}
+
 requires:
-    redaxo: '>=5.0.0'
+    redaxo: ^5.0
