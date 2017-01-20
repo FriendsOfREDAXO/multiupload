@@ -26,3 +26,7 @@ todo:
 ----------
 
 Ein nachträgliches skalieren der JPG-Dateien, wie es in der REX4 Version vorhanden war, ist momentan <b><u>noch nicht</u></b> möglich.
+
+Credits / Respect:
+----------
+DECAF, Dirk Schürjohann (PreCompressor REDAXO CMS 4)
