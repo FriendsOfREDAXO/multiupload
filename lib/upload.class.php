@@ -36,7 +36,7 @@ class rex_mediapool_multiupload
         $this->upload_simultaneously = $this->addon->getProperty("upload_simultaneously");
         $this->javascript_debug = $this->addon->getProperty("javascript_debug");
         $this->showFootnote = $this->addon->getProperty("show_footnote");
-        $this->folder = $this->addon->getProperty("folder");
+        $this->folder = addslashes($this->addon->getProperty("folder"));
         $this->markup = $this->return_markup;
         $this->time = uniqid();
     }
