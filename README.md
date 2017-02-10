@@ -21,7 +21,7 @@ Last Changes
 * multiupload nun auch im Medienpool möglich (als eigener Tab)
 * Der Standard "Single Upload - Tab" wird durch das multiupload Addon ausgeblendet
 * PlugIn: PreCompressor hinzugefügt
-* Der PreCompressor verkleinert die Bilder nach dem upload auf eine vorab eingestellte Breite. Dabei wird das Originalbild überschrieben. Dieses Plugin wurde von R4 auf R5 portiert und in den multiupload integriert.
+* Der PreCompressor verkleinert die Bilder nach dem Upload auf eine vorab eingestellte Breite. Dabei wird das Originalbild überschrieben. Dieses Plugin wurde von R4 auf R5 portiert und in den multiupload integriert.
 
 Credits / Respekt
 -------
