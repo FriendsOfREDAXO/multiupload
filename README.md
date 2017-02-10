@@ -17,10 +17,6 @@ Last Changes
 ### Version 2.0.2-dev ####
 - Changes
 * PHP 7 ready
-
-### Version 2.0.1-dev ####
-
-- Changes
 * multiupload nun auch im Medienpool möglich (als eigener Tab)
 * Der Standard "Single Upload - Tab" wird durch das multiupload Addon ausgeblendet
 * PlugIn: PreCompressor hinzugefügt
