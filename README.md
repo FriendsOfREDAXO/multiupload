@@ -26,5 +26,6 @@ Credits / Respekt
 -------
 
 * nightstomp, Hirbod Mirjavadi (multiupload REDAXO CMS 4)
+* @darwin26 für den REDAXO 5 Port
 * DECAF, Dirk Schürjohann (PreCompressor REDAXO CMS 4)
 * [REDAXO CMS](http://www.redaxo.org)
