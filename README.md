@@ -2,7 +2,8 @@ Multipload Addon
 ================
 
 
-Das AddOn bietet die Möglichkeit, mehrere Dateien auf einmal in den Medienpool hochzuladen.
+Das AddOn bietet die Möglichkeit, mehrere Dateien auf einmal in den Medienpool hochzuladen
+
 ![screen20161222_medienpool_dev](https://cloud.githubusercontent.com/assets/189407/21421913/8dbd05c4-c835-11e6-8f24-595068cdd486.png)
 
 Installation
