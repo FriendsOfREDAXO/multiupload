@@ -1,0 +1,14 @@
+multiupload = Multiupload
+
+# package
+quickupload = Quick upload
+settings = Settings
+developer = For developers
+informations = Information
+
+multiupload_uploadform_js_info = JavaScript must be activated
+multiupload_uploadform_list_label = Edit files
+multiupload_uploadform_remove_label = Additional actions
+multiupload_uploadform_remove_button = Remove completed / faulty uploads from this list
+multiupload_uploadform_footnote = Select multiple using CTRL (WIN) or CMD (Mac OS). <br />The files will automatically be synchronised with the chosen category. <br />Changing the media category resets the form and should be done before filling out any other fields. While uploading, the chosen media category cannot be changed for the files being uploaded.
+
