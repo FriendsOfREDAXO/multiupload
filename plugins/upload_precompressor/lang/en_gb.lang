@@ -1,0 +1,15 @@
+upload_precompressor_title = PreCompressor
+upload_precompressor_title_settings = PreCompressor - settings
+
+upload_precompressor_settings = Settings
+upload_precompressor_description = Description
+
+
+upload_precompressor_go_title = Downsize images
+upload_precompressor_submit = Save settings
+upload_precompressor_maxlength = Max. edge length (px):
+upload_precompressor_jpgquality = JPG quality (%):
+
+upload_precompressor_save_success = Settings have been saved!
+upload_precompressor_save_error = <b>No</b> data was saved!
+upload_precompressor_check_jpgquality = Please check input for JPG quality (max. 100%)
