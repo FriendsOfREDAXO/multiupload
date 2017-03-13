@@ -31,6 +31,8 @@ Der ImageOptimizer unterstützt alle gängigen Bildtypen. Die Optimizer sind tei
 
 Die Pfade zu den Tools sind voreingestellt (normale Defaults). Falls (wie bei DomainFactory) selbst kompiliert wird, müssen die Pfade entsprechend angepasst werden (meistens /opt/...)
 
+Der ImageOptimizer stellt einen Media Manager Effekt zur Verfügung. Dieser sollte immer als letzter Effektschritt eingebaut werden (funktioniert auch dazwischen, könnte jedoch Sideeffects haben, die noch ungetestet sind). Des Weiteren kann zusätzlich jedes Bild nach dem Upload optimiert werden. Möchte man auf der Website keinen Media Manager nutzen, empfiehlt sich die Upload-Einstellung.
+
 Installation
 -------
 
