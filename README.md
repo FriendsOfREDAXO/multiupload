@@ -33,6 +33,8 @@ Die Pfade zu den Tools sind voreingestellt (normale Defaults). Falls (wie bei Do
 
 Der ImageOptimizer stellt einen Media Manager Effekt zur Verfügung. Dieser sollte immer als letzter Effektschritt eingebaut werden (funktioniert auch dazwischen, könnte jedoch Sideeffects haben, die noch ungetestet sind). Des Weiteren kann zusätzlich jedes Bild nach dem Upload optimiert werden. Möchte man auf der Website keinen Media Manager nutzen, empfiehlt sich die Upload-Einstellung.
 
+Bitte schaue dir hierzu die Einstellungsoptionen in der Plugin-Page an.
+
 Installation
 -------
 
