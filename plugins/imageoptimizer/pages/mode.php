@@ -106,6 +106,10 @@ if (rex_post('btn_save', 'string') != '' || rex_post('btn_test', 'string') != ''
     $newConfig = array();
     $newConfig = rex_post('settings', 'array');
 
+    if(!isset($newConfig['optimize_uploaded_files'])) {
+        $newConfig['optimize_uploaded_files'] = 0;
+    }
+
     rex_plugin::get('multiupload', 'imageoptimizer')->setConfig($newConfig);
 }
 
