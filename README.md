@@ -4,6 +4,31 @@ Multipload Addon
 
 Das AddOn bietet die Möglichkeit, mehrere Dateien auf einmal in den Medienpool hochzuladen.
 
+PlugIns
+-------
+
+Dieses AddOn enthält zwei sehr nützliche PlugIns.
+
+* ImageOptimizer
+* PreCompressor
+
+Der PreCompressor kann Bilder automatisch verkleinern. Die Werte können im Plugin eingestellt werden. Es werden keine zusätzlichen Systemlibraries benötigt.
+
+Der ImageOptimizer ist komplexer und benötigt diverse Kommandozeilentools. Diese lassen sich mit Root-Zugriff auf dem Server (oder als Anfrage beim Provider) installieren (apt-get install jpegoptim pngquant pngcrush pngout advancecomp). Auf DomainFactory können diese Tools sehr einfach selbst kompiliert werden. https://www.df.eu/forum/threads/80529-jpegoptim-optipng-auf-ManagedServern
+Jpegtran muss aktuell auf neueren Sytemen selbst kompiliert werden, da keine Packages verfügbar sind (zumindest für Debian)
+
+Der ImageOptimizer unterstützt alle gängigen Bildtypen. Die Optimizer sind teilweise verlustfrei und teilweise verlustetbehaftet. Es steht in den Einstellungen detailliert dabei.
+
+- jpegoptim (verlustfrei)
+- jpegtrans (orientation-fix only)
+- pngquant (verlustbehaftet, aber sehr gute Qualität bei kleiner Dateigröße)
+- optipng (verlustfrei, geringe Ergebnisse)
+- pngcrush (verlustfrei, geringe Ergebnisse)
+- pngout (verlustfrei, geringe Ergebnisse)
+- advpng / advcompress (nur Komprimierung, verlustfrei, geringe Ergebnisse)
+- Mix-Modus: pngquant, optipng, pngcrush, advcomp (verlustbehaftet, aber sehr gute Qualität bei kleinster Dateigröße)
+
+Die Pfade zu den Tools sind voreingestellt (normale Defaults). Falls (wie bei DomainFactory) selbst kompiliert wird, müssen die Pfade entsprechend angepasst werden (meistens /opt/...)
 
 Installation
 -------
