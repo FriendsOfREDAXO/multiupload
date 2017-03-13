@@ -1,0 +1,31 @@
+imageoptimizer_title = ImageOptimizer
+imageoptimizer_title_settings_path = ImageOptimizer - Pfadeinstellungen
+
+imageoptimizer_modesetting = Moduseinstellungen
+imageoptimizer_advanced_settings = Erweiterte Einstellungen
+imageoptimizer_settings = Einstellungen
+imageoptimizer_description = Beschreibung
+
+imageoptimizer_headline_modesettings = Hier kannst du den Modus für JPEG, PNG und GIF einstellen. Die Voreinstellung ist im Normalfall ausreichend. Falls du jedoch andere Modi verwenden möchtest, kannst du die Einstellungen verändern. Einige Modi reduzieren die Bildqualität (meistens nicht bemerkbar). Nachdem Speichern wird deine Einstellung mit internen Bilddaten getestet. Sollte ein Befehl aufgrund einer fehlenden Lib nicht ausgeführt werden können, wird eine Fehlermeldung ausgegeben. In diesem Fall musst du entweder den Pfad anpassen, die Software nachinstallieren oder den Modus umstellen.<br><br>Dieses Plugin liefert einen Media Manager Effekt und kann zusätzlich nach einem Upload die Original-Datei optimieren.
+imageoptimizer_headline_pathsettings = Hier können die Pfade eingestellt werden. Es muss nicht jede Library installiert sein, damit das Plugin funktioniert, jedoch müssen die Libs installiert sein, die in der Moduseinstellung verwendet werden. Für einen optimalen Betrieb reichen jpegoptim, pngquant und gifsicle (nur gute Ergebnisse bei animierten Dateien). Falls die Defaultpfade nicht passen sollten, kannst du diese hier konfigurieren.<br><br>Dieses Plugin liefert einen Media Manager Effekt und kann zusätzlich nach einem Upload die Original-Datei optimieren.
+
+imageoptimizer_go_title = Bilder verkleinern
+imageoptimizer_submit = Einstellungen speichern
+imageoptimizer_test_setting = Einstellungen testen & speichern
+imageoptimizer_deactivated = Deaktiviert
+imageoptimizer_lossyless = Verlustfrei
+imageoptimizer_lossyless_small = Verlustfrei, geringe Ergebnisse
+imageoptimizer_lossy = Verlustbehaftet
+imageoptimizer_lossy_best = Verlustbehaftet, sehr gute Ergebnisse
+
+
+imageoptimizer_recommended = Empfohlen, beste Ergebnisse
+
+imageoptimizer_optimize_uploaded_files = Bilder nach Upload optimieren
+
+imageoptimizer_settings_had_no_error = Der Test war erfolgreich. Deine Testdateien konnten optimiert werden.
+imageoptimizer_setting_had_errors = Der Test ist fehlgeschlagen. Entweder die Libraries fehlen oder die Pfade sind fehlerhaft. Bitte ändere den Modus, überprüfe die Software oder Pfadeinstellungen.<br>
+
+imageoptimizer_save_success = Die Eingaben wurden gespeichert!
+imageoptimizer_save_error = Es wurden <b>keine</b> Daten gespeichert!
+imageoptimizer_check_jpgquality = Bitte Eingabe der JPG-Qualität überprüfen (max 100%)

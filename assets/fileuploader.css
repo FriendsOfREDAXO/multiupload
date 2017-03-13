@@ -1,5 +1,5 @@
-.qq-uploader { 
-   position:relative; 
+.qq-uploader {
+   position:relative;
    width: 100%;
 }
 
@@ -9,8 +9,8 @@
 }
 
 
-.rex-form-aligned,
-.btn-toolbar .rex-form-aligned
+.qq-uploader .rex-form-aligned,
+.qq-uploader .btn-toolbar .rex-form-aligned
 {
     margin: 0;
 }
@@ -20,7 +20,7 @@
    color:#fff;
     padding: 20px 0;
     margin-bottom: 20px;
-    
+
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
@@ -39,14 +39,14 @@
 }
 
 .qq-upload-drop-area {
-   position:absolute; 
-   top:0; 
-   left:0; 
-   width:100%; 
-   height:150px; 
-   min-height: 70px; 
+   position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:150px;
+   min-height: 70px;
    z-index:2000;
-   background:#FF9797; 
+   background:#FF9797;
    text-align:center;
    color: #fff;
    font-weight: bold;
@@ -58,10 +58,10 @@
 }
 
 .qq-upload-drop-area span {
-   display:block; 
-   position:absolute; 
-   top: 50%; 
-   width:100%; 
+   display:block;
+   position:absolute;
+   top: 50%;
+   width:100%;
    margin-top:-8px;
    font-size:20px;
 }
@@ -76,10 +76,10 @@
    padding: 5px 5px 5px 0 !important;
 }
 
-.qq-upload-list li { 
-   margin:0 0 2px 0; 
-   padding:  5px; 
-   line-height:15px; 
+.qq-upload-list li {
+   margin:0 0 2px 0;
+   padding:  5px;
+   line-height:15px;
    font-size:12px;
    background: #e5e5e5;
    border-bottom: 1px solid #eee;
@@ -90,14 +90,14 @@
    margin: 0 !important;
 }
 
-.qq-upload-list li:hover { 
+.qq-upload-list li:hover {
    background: #e9e9e9;
-} 
+}
 
-.qq-upload-file, 
-.qq-upload-spinner, 
-.qq-upload-size, 
-.qq-upload-cancel, 
+.qq-upload-file,
+.qq-upload-spinner,
+.qq-upload-size,
+.qq-upload-cancel,
 .qq-upload-failed-text,
 .qq-upload-success-text {
     margin-right: 7px;
@@ -114,9 +114,9 @@
 .qq-upload-file {}
 .qq-upload-spinner {
    display:inline-block;
-   background: url("loading.gif") no-repeat; 
-   width:15px; 
-   height:15px; 
+   background: url("loading.gif") no-repeat;
+   width:15px;
+   height:15px;
    vertical-align:text-bottom;
 }
 
@@ -339,4 +339,3 @@ li.qq-upload-fail a {
    font-weight: bold;
    text-decoration: none !important;
 }
-

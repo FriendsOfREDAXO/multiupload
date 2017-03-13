@@ -1,0 +1,14 @@
+package: multiupload/imageoptimizer
+version: '1.0'
+author: FriendsOfREDAXO
+title: 'Image Optimizer'
+description: 'translate:imageoptimizer_plugin'
+
+page:
+    title: 'translate:imageoptimizer_title'
+    perm: admin
+    subpages:
+        mode: { title: 'translate:imageoptimizer_modesetting', hidden: false}
+        settings: { title: 'translate:imageoptimizer_advanced_settings', hidden: false}
+requires:
+    redaxo: ^5.0

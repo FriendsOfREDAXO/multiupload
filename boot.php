@@ -33,18 +33,18 @@ foreach($properties as $key => $val) {
 if (rex::isBackend() && rex::getUser()) {
     rex_view::addCssFile($addon->getAssetsUrl('fileuploader.css'));
     rex_view::addJSFile($addon->getAssetsUrl('fileuploader.js'));
-    
+
     $_REX_HACK_OPENER = "";
     $_REX_HACK_OPENER = rex_request('opener_input_field', 'string');
-    
+
     $header =
     PHP_EOL.'  '.
     PHP_EOL.'  <!-- multiupload -->'.
     PHP_EOL.'  <script type="text/javascript">var lastMediaPoolOpener = "'.$_REX_HACK_OPENER.'";</script>'.
     PHP_EOL.'  <!-- ###MULTIUPLOAD_EP_REPLACE### -->'.
     PHP_EOL.'  <!-- /multiupload -->'.PHP_EOL;
-    
-    
+
+
     rex_extension::register('OUTPUT_FILTER', function(rex_extension_point $ep) use ($header){
         $suchmuster = '</head>';
         $ersetzen = $header ."\n</head>";
@@ -53,6 +53,7 @@ if (rex::isBackend() && rex::getUser()) {
 
     // Medienpool upload + sync Page deaktivieren
     rex_extension::register('PAGES_PREPARED', function () {
+        /*
         $page = rex_be_controller::getPageObject('mediapool/upload');
         if ($page) {
             $page->setHidden(true);
@@ -64,8 +65,7 @@ if (rex::isBackend() && rex::getUser()) {
         if ($page) {
             $page->setHidden(true);
         }
+        */
     });
 }
 // --- /HEADER
-
-
