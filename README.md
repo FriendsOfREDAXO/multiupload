@@ -1,8 +1,9 @@
 Multipload Addon
 ================
 
-
 Das AddOn bietet die Möglichkeit, mehrere Dateien auf einmal in den Medienpool hochzuladen.
+![Screenshot](https://raw.githubusercontent.com/FriendsOfREDAXO/multiupload/assets/screenshot.jpg)
+
 
 PlugIns
 -------
