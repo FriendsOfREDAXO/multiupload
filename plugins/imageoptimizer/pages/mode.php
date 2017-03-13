@@ -24,7 +24,7 @@ if (rex_post('btn_test', 'string') != '') {
     $newConfig = array();
     $newConfig = rex_post('settings', 'array');
 
-
+    $conf = rex_plugin::get('multiupload', 'imageoptimizer')->getConfig();
     $factory = new \ImageOptimizer\OptimizerFactory([
         'ignore_errors' => false,
         'pngquant_bin' => $conf['pngquant_bin'],
