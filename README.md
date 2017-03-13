@@ -14,7 +14,8 @@ Dieses AddOn enthält zwei sehr nützliche PlugIns.
 
 Der PreCompressor kann Bilder automatisch verkleinern. Die Werte können im Plugin eingestellt werden. Es werden keine zusätzlichen Systemlibraries benötigt.
 
-Der ImageOptimizer ist komplexer und benötigt diverse Kommandozeilentools. Diese lassen sich mit Root-Zugriff auf dem Server (oder als Anfrage beim Provider) installieren (apt-get install jpegoptim pngquant pngcrush pngout advancecomp). Auf DomainFactory können diese Tools sehr einfach selbst kompiliert werden. https://www.df.eu/forum/threads/80529-jpegoptim-optipng-auf-ManagedServern
+Der ImageOptimizer ist komplexer und benötigt diverse Kommandozeilentools. Diese lassen sich mit Root-Zugriff auf dem Server (oder als Anfrage beim Provider) installieren (apt-get install jpegoptim pngquant pngcrush pngout advancecomp). Auf DomainFactory können diese Tools sehr einfach selbst kompiliert werden. https://www.df.eu/forum/threads/80529-jpegoptim-optipng-auf-ManagedServern.
+
 Jpegtran muss aktuell auf neueren Sytemen selbst kompiliert werden, da keine Packages verfügbar sind (zumindest für Debian)
 
 Der ImageOptimizer unterstützt alle gängigen Bildtypen. Die Optimizer sind teilweise verlustfrei und teilweise verlustetbehaftet. Es steht in den Einstellungen detailliert dabei.
