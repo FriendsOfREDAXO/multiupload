@@ -12,8 +12,13 @@ Installation
 * Das Addon in das Redaxo5 AddOns Verzeichnis /redaxo/src/addons/ ablegen
 * Im REDAXO CMS Backend unter Addons das multiupload-Addon installieren
 
+Beachte: dieses AddOn enthält nützliche Plugins
+
 Last Changes
 -------
+### Version 2.1.0 ####
+* diverse kleine Bugs und Einstellungsfehler gefixed
+* Plugin: imageoptimizer hinzugefügt
 
 ### Version 2.0.1-dev ####
 
