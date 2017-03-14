@@ -48,7 +48,7 @@ Beachte: dieses AddOn enthält nützliche Plugins
 
 Last Changes
 -------
-### Version 2.1.0 ####
+### Version 2.1.1 ####
 * diverse kleine Bugs und Einstellungsfehler gefixed
 * Plugin: imageoptimizer hinzugefügt
 
