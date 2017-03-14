@@ -39,33 +39,25 @@ class rex_effect_image_optimizer extends rex_effect_abstract
             try {
                 $optimizer = $optimizer = $factory->get($config['jpeg_mode']);
                 $optimizer->optimize($filepath);
-            } catch (Exception $e) {
-                echo $e->getMessage();
-            }
+            } catch (Exception $e) {}
         }
 
         if ($config['png_mode'] && $format == "png") {
             try {
                 $optimizer = $optimizer = $factory->get($config['png_mode']);
                 $optimizer->optimize($filepath);
-            } catch (Exception $e) {
-                echo $e->getMessage();
-
-            }
+            } catch (Exception $e) {}
         }
 
-        if ($config['png_mode'] && $format == "gif") {
+        if ($config['gif_mode'] && $format == "gif") {
             try {
                 $optimizer = $optimizer = $factory->get($config['gif_mode']);
                 $optimizer->optimize($filepath);
-            } catch (Exception $e) {
-                echo $e->getMessage();
-
-            }
+            } catch (Exception $e) {}
         }
 
         $this->media->setImage(imagecreatefromstring(file_get_contents($filepath)));
-        @unlink($filepath);
+        unlink($filepath);
     }
 }
 
