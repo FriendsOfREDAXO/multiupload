@@ -191,7 +191,7 @@ class rex_mediapool_multiupload
 
         if ($this->sync_cat){
             $cats_sel = new rex_media_category_select();
-            $ $cats_sel->setStyle('class="form-control selectpicker"');
+            $cats_sel->setStyle('class="form-control selectpicker"');
             $cats_sel->setAttribute('data-live-search', 'true');
             $cats_sel->setSize(1);
             $cats_sel->setName('rex_file_category');
