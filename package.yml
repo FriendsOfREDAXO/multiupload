@@ -1,5 +1,5 @@
 package: multiupload
-version: '2.1.1'
+version: '2.1.2'
 author: Friends Of REDAXO
 supportpage: https://github.com/FriendsOfREDAXO/
 
@@ -18,4 +18,6 @@ pages:
           quickupload: { title: translate:quickupload, hidden: true}
 
 requires:
+    packages:
+        media_manager: '^2.0.0'
     redaxo: ^5.0
