@@ -49,7 +49,7 @@ rex_extension::register('MEDIA_ADDED', function (rex_extension_point $ep) {
             $mediaSQL->setValue('height', $size[1]);
             $mediaSQL->update();
 
-            rex_delete_cache();
+            rex_media_manager::deleteCache($params['filename']);
         }
     }
     return $params;
