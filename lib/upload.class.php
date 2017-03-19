@@ -168,7 +168,8 @@ class rex_mediapool_multiupload
 
         // include cat sync select
         $cats_sel = new rex_media_category_select;
-        $cats_sel->setStyle('class="form-control"');
+        $cats_sel->setStyle('class="form-control selectpicker"');
+        $cats_sel->setAttribute('data-live-search', 'true');
         $cats_sel->setSize(1);
         $cats_sel->setName('rex_file_category');
         $cats_sel->setId('rex_file_category_'.$this->time);
@@ -190,7 +191,8 @@ class rex_mediapool_multiupload
 
         if ($this->sync_cat){
             $cats_sel = new rex_media_category_select();
-            $cats_sel->setStyle('class="form-control"');
+            $ $cats_sel->setStyle('class="form-control selectpicker"');
+            $cats_sel->setAttribute('data-live-search', 'true');
             $cats_sel->setSize(1);
             $cats_sel->setName('rex_file_category');
             $cats_sel->setId('rex_file_category_'.$this->time);
