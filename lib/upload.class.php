@@ -164,8 +164,11 @@ class rex_mediapool_multiupload
      */
     public function getMediaCats()
     {
-        $rex_file_category = rex_request('rex_file_category', 'int');
-
+        $rex_file_category = rex_request('rex_file_category', 'int', -1);
+        if ($rex_file_category == -1) {
+            $rex_file_category = rex_session('media[rex_file_category]', 'int');
+        }
+        
         // include cat sync select
         $cats_sel = new rex_media_category_select;
         $cats_sel->setStyle('class="form-control selectpicker"');
@@ -183,8 +186,11 @@ class rex_mediapool_multiupload
      */
     public function createUploadForm()
     {
-        $rex_file_category = rex_request('rex_file_category', 'int');
-
+        $rex_file_category = rex_request('rex_file_category', 'int', -1);
+        if ($rex_file_category == -1) {
+            $rex_file_category = rex_session('media[rex_file_category]', 'int');
+        }
+        
         $output = '';
         $script_page_header = '';
         $uploadPath = "index.php?page=".$this->addon_name."/upload&upload_folder=".$this->folder;
