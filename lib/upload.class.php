@@ -223,7 +223,7 @@ class rex_mediapool_multiupload
                 $fragment->setVar('elements', $formElements, false);
                 $panel .= $fragment->parse('core/form/form.php');
 
-                $panel .= rex_extension::registerPoint(new rex_extension_point('MEDIA_FORM_ADD', ''));
+                //$panel .= rex_extension::registerPoint(new rex_extension_point('MEDIA_FORM_ADD', ''));
 
                 $fragment = new rex_fragment();
                 $fragment->setVar('class', 'info', false);
