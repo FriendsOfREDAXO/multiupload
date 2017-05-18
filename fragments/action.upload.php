@@ -151,15 +151,26 @@ class qqFileUploader {
         }
 
         if(!$replaceOldFile){
-            $final_name = rex_mediapool_filename($filename . '.' . $ext);
+            // $final_name = rex_mediapool_filename($filename . '.' . $ext);
+            $final_name = $filename . '.' . $ext;
         }
 
         if ($this->file->save($uploadDirectory . $final_name)){
-			rex_mediapool_syncFile($final_name, rex_get('mediaCat', 'int'), '');
+			$fileinfo = rex_mediapool_syncFile($final_name, rex_get('mediaCat', 'int'), '');
 
-            rex_set_session('media[rex_file_category]', rex_get('mediaCat', 'int'));
+            if($fileinfo['ok'])
+            {
+                rex_set_session('media[rex_file_category]', rex_get('mediaCat', 'int'));
+    	        return array('success'=>true, 'filename' => ''.$fileinfo['filename'].'', 'mediaCatId' => rex_get('mediaCat', 'int'), 'fileId' => rex_media::get($fileinfo['filename'])->getId(), 'originalname' => $fileinfo['old_filename'], 'timestamp' => time());
+            }
+            else
+            {
+                unlink($uploadDirectory . $final_name);
+                
+                return array('error'=> 'Die Datei konnte nicht gespeichert werden.' .
+                    $fileinfo['message']);
 
-	        return array('success'=>true, 'filename' => ''.$final_name.'', 'mediaCatId' => rex_get('mediaCat', 'int'), 'fileId' => rex_media::get($final_name)->getId(), 'originalname' => ''.$filename.'.'.$ext.'', 'timestamp' => time());
+            }
         } else {
             return array('error'=> 'Die Datei konnte nicht gespeichert werden.' .
                 'Der Upload wurde abgebrochen, oder es handelt sich um einen internen Fehler');
