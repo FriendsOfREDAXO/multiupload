@@ -1,0 +1,31 @@
+imageoptimizer_title = ImageOptimizer
+imageoptimizer_title_settings_path = ImageOptimizer - path settings
+
+imageoptimizer_modesetting = Mode
+imageoptimizer_advanced_settings = Advanced settings
+imageoptimizer_settings = Settings
+imageoptimizer_description = Description
+
+imageoptimizer_headline_modesettings = Here you can set which mode zo use for JPEGs, PNGs and GIFs. The default setting is sufficient in most cases. If you'd like to use different modes, you can change it here. A few modes reduce image quality (usually unnoticable). When settings are saved, they will be tested with an internal image file. If a command is not supported due to a missing library, the error message will be shown. In this case you will have to correct the path, install the missing library or change the mode being used.<br /><br />This plugin adds a media manager effect but can additionally optimize images after uploading.
+imageoptimizer_headline_pathsettings = Here you can set the paths. Not every library needs to be installed for the plugin to do its job, unless explicitly set under mode settings. For optimal results jpegoptim, pngquant and gifsicle (only for animated images) should be available. In case the default paths are not correct, you can change them here.<br /><br />This plugin adds a media manager effect but can additionally optimize images after uploading.
+
+imageoptimizer_go_title = Resize images
+imageoptimizer_submit = Save settings
+imageoptimizer_test_setting = Test settings and save
+imageoptimizer_deactivated = Deactivated
+imageoptimizer_lossyless = Lossless
+imageoptimizer_lossyless_small = Lossless, reduced results
+imageoptimizer_lossy = Lossy
+imageoptimizer_lossy_best = Lossy, good results
+
+
+imageoptimizer_recommended = Recommended, best results
+
+imageoptimizer_optimize_uploaded_files = Optimize images after upload
+
+imageoptimizer_settings_had_no_error = Success. Test files were optimized successfully.
+imageoptimizer_setting_had_errors = Test failed. You may be missing libraries or the paths are incorrect. Please change the mode, check your libraries or change the paths.
+
+imageoptimizer_save_success = Settings saved!
+imageoptimizer_save_error = No data was saved!
+imageoptimizer_check_jpgquality = Please check entered JPG quality settings (max. 100%)
