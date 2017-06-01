@@ -1,0 +1,31 @@
+imageoptimizer_title = ImageOptimizer
+imageoptimizer_title_settings_path = ImageOptimizer - Configurações de caminho
+
+imageoptimizer_modesetting = Modo
+imageoptimizer_advanced_settings = Configurações avançadas
+imageoptimizer_settings = Configurações
+imageoptimizer_description = Descrição
+
+imageoptimizer_headline_modesettings = Aqui você pode definir qual modo zo usar para JPEGs, PNGs e GIFs. A configuração padrão é suficiente na maioria dos casos.Se você quiser usar modos diferentes, você pode alterá-lo aqui. Alguns modos reduzem a qualidade da imagem (geralmente não perceptível). Quando as configurações forem salvas, elas serão testadas com um arquivo de imagem interno. Se um comando não for suportado devido a uma biblioteca ausente, uma mensagem de erro será exibida. Neste caso, você terá que corrigir o caminho, instalar a biblioteca ausente ou alterar o modo que está sendo usado.<br /><br />Esse plugin adiciona um efeito de gerenciador de mídia, mas também pode otimizar imagens após o upload.
+imageoptimizer_headline_pathsettings = Aqui você pode definir os caminhos. Nem todas as bibliotecas precisam ser instaladas para que o plug-in faça seu trabalho, a menos que explicitamente definido em configurações de modo. Para obter bon resultados, jpegoptim, pngquant e gifsicle (somente para imagens animadas) devem estar disponíveis. Caso os caminhos padrão não estejam corretos, você pode alterá-los aqui.<br /><br />Esse plugin adiciona um efeito de gerenciador de mídia, mas também pode otimizar imagens após o upload.
+
+imageoptimizer_go_title = Diminuir a imagem
+imageoptimizer_submit = Salvar configurações
+imageoptimizer_test_setting = Testar configurações e salvá-las
+imageoptimizer_deactivated = Desativado
+imageoptimizer_lossyless = Sem perdas
+imageoptimizer_lossyless_small = Sem perdas, resultados reduzidos
+imageoptimizer_lossy = Com perdas
+imageoptimizer_lossy_best = Com perdas, resultados muito bons
+
+
+imageoptimizer_recommended = Recomendado, melhores resultados
+
+imageoptimizer_optimize_uploaded_files = Otimizar imagens depois do upload
+
+imageoptimizer_settings_had_no_error = O teste foi bem sucedido. Seus arquivos de testee puderam ser otimizados.
+imageoptimizer_setting_had_errors = O teste falhou. Podem estar faltando bibliotecas ou os caminhos estão incorretos. Altere o modo ou os caminhos e verifique as bibliotecas.
+
+imageoptimizer_save_success = Configurações salvas!
+imageoptimizer_save_error = Nenhum dado foi salvo!
+imageoptimizer_check_jpgquality = Por favor, verifique as configurações de qualidade JPEG inseridas (máximo 100%)
