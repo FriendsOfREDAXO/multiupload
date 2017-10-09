@@ -1,0 +1,15 @@
+upload_precompressor_title = PreCompressor
+upload_precompressor_title_settings = PreCompressor - Inställningar
+
+upload_precompressor_settings = Inställningar
+upload_precompressor_description = Beskrivning
+
+
+upload_precompressor_go_title = Förminska bilden
+upload_precompressor_submit = Spara inställningar
+upload_precompressor_maxlength = Max. kantlängd (px):
+upload_precompressor_jpgquality = JPG quality (%)
+
+upload_precompressor_save_success = Inställningarna sparades
+upload_precompressor_save_error = Inga data sparades!
+upload_precompressor_check_jpgquality = Var god kontrollera JPG-kvalité inställning (max 100%)

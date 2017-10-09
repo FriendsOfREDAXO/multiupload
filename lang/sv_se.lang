@@ -1,0 +1,14 @@
+multiupload = Multiupload
+
+# package
+quickupload = Quick upload
+settings = Inställningar
+developer = För utvecklare
+informations = Information
+
+multiupload_uploadform_js_info = JavaScript måste vara aktiverat
+multiupload_uploadform_list_label = Redigera filer
+multiupload_uploadform_remove_label = Fler aktioner:
+multiupload_uploadform_remove_button = Remove successful/unsuccessful uploads
+multiupload_uploadform_footnote = Välj flera med CTRL (Win) eller CMD (Mac). <br /> Filerna kommer automatiskt att synkroniseras med den valda kategorin. <br /> Om du ändrar kategorin återställs uppladdningsformuläret. Om en fil redan laddas upp, kommer ändringen av kategorin inte att ha någon effekt.
+
