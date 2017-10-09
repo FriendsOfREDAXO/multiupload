@@ -1,0 +1,31 @@
+imageoptimizer_title = ImageOptimizer
+imageoptimizer_title_settings_path = ImageOptimizer - path settings
+
+imageoptimizer_modesetting = Modus inställningar
+imageoptimizer_advanced_settings = Utökade inställningar
+imageoptimizer_settings = Inställningar
+imageoptimizer_description = Beskrivning
+
+imageoptimizer_headline_modesettings = Här kan du ange vilket läge som ska användas för JPEG, PNG och GIF. Standardinställningen är i de flesta fall tillräcklig. Om du vill använda olika lägen kan du ändra det här. Några lägen minskar bildkvalitén (vanligtvis osynlig). När inställningarna sparas testas de med en intern bildfil. Om ett kommando inte stöds på grund av ett saknat bibliotek visas ett felmeddelande. I det här fallet måste du korrigera sökvägen, installera det saknade biblioteket eller ändra det sätt som används. <br /> <br /> Detta plugin lägger till en mediehanteringseffekt och kan dessutom optimera bilder efter uppladdning.
+imageoptimizer_headline_pathsettings = Här kan du ställa in banorna. Inte alla bibliotek måste installeras för plugin att fungera, men alla som är inställda under lägesinställningar. För optimala resultat ska jpegoptim, pngquant och gifsicle (endast för animerade bilder) vara tillgängliga. Om standardvägarna inte är korrekta kan du ändra dem här. <br/><br/> Detta plugin lägger till en mediehanteringseffekt och kan dessutom optimera bilder efter uppladdning.
+
+imageoptimizer_go_title = Förminsla bilder
+imageoptimizer_submit = Spara inställningar
+imageoptimizer_test_setting = Testa inställningar & spara
+imageoptimizer_deactivated = Deaktiverat
+imageoptimizer_lossyless = Förlustfritt
+imageoptimizer_lossyless_small = Förlustfritt, ringa reslutat
+imageoptimizer_lossy = Inte helt förlustfri
+imageoptimizer_lossy_best = Inte förlustfri, mycket goda resultat
+
+
+imageoptimizer_recommended = Rekommenderas, bästa resultat
+
+imageoptimizer_optimize_uploaded_files = Optimera bilder efter uppladdning
+
+imageoptimizer_settings_had_no_error = Test var framgångsrik. Dina testfiler kunde optineras.
+imageoptimizer_setting_had_errors = Test misslyckades. Du kanske saknar bibliotek eller banorna är felaktiga. Vänligen ändra läget, kolla dina bibliotek eller ändra vägarna.
+
+imageoptimizer_save_success = Inställningar sparades!
+imageoptimizer_save_error = Inga data sparades!
+imageoptimizer_check_jpgquality = Var god kontrollera JPG-kvalité inställning (max 100%)
