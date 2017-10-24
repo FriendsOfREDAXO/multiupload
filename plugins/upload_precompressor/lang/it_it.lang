@@ -1,0 +1,15 @@
+upload_precompressor_title = PreCompressor
+upload_precompressor_title_settings = PreCompressor - Impostazioni
+
+upload_precompressor_settings = Impostazioni
+upload_precompressor_description = Descrizione
+
+
+upload_precompressor_go_title = Riduzione immagini
+upload_precompressor_submit = Salva impostazioni
+upload_precompressor_maxlength = Lunghezza massima (px):
+upload_precompressor_jpgquality = Qualità JPG (%):
+
+upload_precompressor_save_success = Le voci sono state salvate!
+upload_precompressor_save_error = <b>Nessun</b> dato è stato salvato!
+upload_precompressor_check_jpgquality = Prego controllare la qualità JPG inserita (max 100%)

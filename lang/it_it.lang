@@ -1,0 +1,14 @@
+multiupload = Multiupload
+
+# package
+quickupload = Quick upload
+settings = Impostazioni
+developer = Per sviluppatori
+informations = Informazioni
+
+multiupload_uploadform_js_info = JavaScript deve essere abilitato.
+multiupload_uploadform_list_label = Modifica file
+multiupload_uploadform_remove_label = altre azioni:
+multiupload_uploadform_remove_button = Rimuovi completati/errati dall'elenco
+multiupload_uploadform_footnote = Multiselezione con CTRL(WIN) o CMD(MAC).<br />I file vengono sincronizzati automaticamente nella categoria selezionata. <br /> Il cambio di una categoria ha sempre priorità rispetto alle selezione di un file. Se un upload è già in corso, la categoria non può più essere modificata per questo file.
+

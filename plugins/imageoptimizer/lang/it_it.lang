@@ -1,0 +1,31 @@
+imageoptimizer_title = ImageOptimizer
+imageoptimizer_title_settings_path = ImageOptimizer - Impostazioni percorso
+
+imageoptimizer_modesetting = Impostazioni modalità
+imageoptimizer_advanced_settings = Impostazioni avanzate
+imageoptimizer_settings = Impostazioni
+imageoptimizer_description = Descrizione
+
+imageoptimizer_headline_modesettings = Qui è possibile impostare la modalità per JPEG, PNG e GIF. Il valore predefinito normalmente è sufficiente. Tuttavia, se si desidera utilizzare altri modi, è possibile modificare le impostazioni. Alcune modalità riducono la qualità dell'immagine (di solito non evidenti). Dopo il salvataggio, l'impostazione verrà testata con dati di immagine interni. Se un comando non può essere eseguito a causa di un libreria mancante, viene mostrato un messaggio di errore. In questo caso, è necessario controllare il percorso, reinstallare il software o modificare la modalità. <br> <br> Questo plug-in fornisce un effetto Media Manager e può anche ottimizzare il file originale dopo il caricamento.
+imageoptimizer_headline_pathsettings = Qui possono essere impostati i vari percorsi. Non è necessario che ogni libreria sia installata per il funzionamento del plug-in, ma devono essere installate tutte le librerie utilizzate nell'impostazione della modalità. Per un funzionamento ottimale, jpegoptim, pngquant e gifsicle (solo buoni risultati per i file animati). Se i percorsi predefiniti non sono adatti, puoi configurarli qui. <br> <br> Questo plugin fornisce un effetto Media Manager e può anche ottimizzare il file originale dopo il caricamento.
+
+imageoptimizer_go_title = Riduzione immagini
+imageoptimizer_submit = Salva impostazioni
+imageoptimizer_test_setting = Salva e testa impostazioni
+imageoptimizer_deactivated = Disattivato
+imageoptimizer_lossyless = Senza perdite
+imageoptimizer_lossyless_small = Senza perdite, bassi risultati
+imageoptimizer_lossy = Con perdite
+imageoptimizer_lossy_best = Con perdite, risultati molto buoni
+
+
+imageoptimizer_recommended = Raccomandato, migliori risultati
+
+imageoptimizer_optimize_uploaded_files = Ottimizza le immagini dopo il caricamento
+
+imageoptimizer_settings_had_no_error = Il test ha avuto successo. I file di prova sono stati ottimizzati.
+imageoptimizer_setting_had_errors = Il test non è riuscito. Le librerie sono mancanti o i percorsi sono difettosi. Modificare la modalità, controllare le impostazioni del software o i percorsi.<br>
+
+imageoptimizer_save_success = Le voci sono state salvate!
+imageoptimizer_save_error = <b>Nessun</b> dato è stato salvato!
+imageoptimizer_check_jpgquality = Prego controllare la qualità JPG inserita (max 100%)
