@@ -7,7 +7,7 @@ class rex_effect_image_optimizer extends rex_effect_abstract
         $this->media->asImage();
         $format      = $this->media->getFormat();
 
-        $filepath = rex_path::cache('imageoptimizer.' . strtolower($format));
+        $filepath = rex_path::cache('imageoptimizer.' . $this->media->getMediaFilename());
 
         switch ($format) {
             case 'jpeg':
