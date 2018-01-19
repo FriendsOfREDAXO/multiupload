@@ -1,0 +1,13 @@
+multiupload = Multicarga
+
+# package
+quickupload = Subida rápida
+settings = Ajustes
+developer = Para desarrolladores
+informations = Información
+
+multiupload_uploadform_js_info = JavaScript debe estar habilitado.
+multiupload_uploadform_list_label = editar archivos
+multiupload_uploadform_remove_label = otras acciones:
+multiupload_uploadform_remove_button = Completado/Eliminar por defecto de la lista
+multiupload_uploadform_footnote = De opción múltiple con STRG(WIN) o CMD(MAC).<br/> Los archivos se sincronizan automáticamente en la categoría seleccionada.<br/> Un cambio de categoría medios de comunicación siempre se anticipa a la selección de un archivo. Encontrar un lugar de carga ya, la categoría no puede ser cambiado para este archivo.
