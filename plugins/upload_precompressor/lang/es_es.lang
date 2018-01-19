@@ -1,0 +1,15 @@
+upload_precompressor_title = Precompresor
+upload_precompressor_title_settings = Precompresor - Configuración
+
+upload_precompressor_settings = Ajustes
+upload_precompressor_description = Descripción
+
+
+upload_precompressor_go_title = Cambiar el tamaño de fotos
+upload_precompressor_submit = Guardar los ajustes
+upload_precompressor_maxlength = Longitud máxima de borde (píxeles).:
+upload_precompressor_jpgquality = La calidad JPG(%):
+
+upload_precompressor_save_success = Las entradas se ha grabado!
+upload_precompressor_save_error = No almacena ningún <b>datos</b>!
+upload_precompressor_check_jpgquality = Por favor, introduzca comprobar la calidad JPG(máximo 100%)
