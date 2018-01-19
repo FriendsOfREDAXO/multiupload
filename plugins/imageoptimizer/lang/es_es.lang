@@ -1,0 +1,30 @@
+imageoptimizer_title = Optimizador de imágenes
+imageoptimizer_title_settings_path = Optimizador de imágenes - configuración de ruta
+
+imageoptimizer_modesetting = Ajustes del modo de
+imageoptimizer_advanced_settings = Configuración avanzada
+imageoptimizer_settings = Ajustes
+imageoptimizer_description = Descripción
+
+imageoptimizer_headline_modesettings = Aquí se puede establecer el modo para JPEG, PNG y GIF. El valor por defecto es normalmente suficiente. Sin embargo, si desea utilizar otros modos, puede cambiar la configuración. Algunos modos (no visible) por lo general reducen la calidad de la imagen. Después de almacenamiento se prueba con datos de imágenes internas de su actitud. Si un comando debido a una falta Lib no puede ser ejecutado, se muestra un mensaje de error. En este caso, debe cambiar la ruta, vuelva a instalar el software o cambiar los modos. <br> Este plugin proporciona un Administrador de medios y se puede efectuar después de un proceso de carga, además, optimizar el archivo original.
+imageoptimizer_headline_pathsettings = Aquí se pueden establecer los caminos. No tiene que ser instalado, todas las bibliotecas para que el plugin funciona, pero las librerías tienen que ser instalados, que se utilizan en el ajuste del modo. Para una óptima jpegoptim rango de operación, y pngquant gifsicle (sólo buenos resultados en archivos animados). Si las rutas por defecto no deben encajar, puede configurar aquí. <br> Este plugin proporciona un efecto Media Manager y se puede optimizar el archivo original junto a un proceso de carga.
+
+imageoptimizer_go_title = cambiar el tamaño de fotos
+imageoptimizer_submit = guardar los ajustes
+imageoptimizer_test_setting = Prueba de ajustes y ahorra
+imageoptimizer_deactivated = Desactivado
+imageoptimizer_lossyless = Sin pérdidas
+imageoptimizer_lossyless_small = Sin pérdidas, resultados bajos
+imageoptimizer_lossy = Con pérdidas
+imageoptimizer_lossy_best = Con pérdidas, muy buenos resultados
+
+imageoptimizer_recommended = Mejores resultados recomendados
+
+imageoptimizer_optimize_uploaded_files = Optimizar imágenes para la carga
+
+imageoptimizer_settings_had_no_error = La prueba se ha realizado correctamente. Los archivos de prueba podrían ser optimizados.
+imageoptimizer_setting_had_errors = La prueba ha fallado. Cualquiera de las bibliotecas no están presentes o son los caminos correctos. Por favor, cambie el modo, la configuración del software o Comprobación de la ruta. <br>
+
+imageoptimizer_save_success = Las entradas se ha grabado!
+imageoptimizer_save_error = No almacena ningún </b>datos<b>!
+imageoptimizer_check_jpgquality = Por favor, introduzca comprobar la calidad JPG(máximo 100%)
