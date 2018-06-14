@@ -1,0 +1,14 @@
+multiupload = Multicarga
+
+# package
+quickupload = Carga rápida
+settings = Ajustes
+developer = Para desarrolladores
+informations = Información
+
+multiupload_uploadform_js_info = JavaScript debe estar habilitado
+multiupload_uploadform_list_label = Editar archivos
+multiupload_uploadform_remove_label = mas acciones
+multiupload_uploadform_remove_button = Eliminar cargas exitosas/fallidas
+multiupload_uploadform_footnote = Seleccione múltiples usando CTRL (Win) o CMD (Mac). <br>Los archivos se sincronizarán automáticamente con la categoría elegida. <br>Cambiar la categoría restablecerá el formulario de carga. Si ya se está cargando un archivo, cambiar la categoría no tendrá efecto.
+
