@@ -17,4 +17,4 @@ page:
 
 
 requires:
-    redaxo: ^5.0
+    redaxo: ^5.1
