@@ -20,4 +20,4 @@ pages:
 requires:
     packages:
         media_manager: '^2.0.0'
-    redaxo: ^5.0
+    redaxo: ^5.1
