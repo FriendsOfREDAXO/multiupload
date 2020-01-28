@@ -1,7 +1,7 @@
 package: multiupload
 version: '2.1.3'
 author: Friends Of REDAXO
-supportpage: https://github.com/FriendsOfREDAXO/
+supportpage: https://github.com/FriendsOfREDAXO/multiupload
 
 page:
     title: 'Multiupload'
